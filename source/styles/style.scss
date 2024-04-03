@@ -1,0 +1,19 @@
+@use 'reset.scss';
+@use 'variables.scss';
+
+body {
+    background-color: variables.$corPrincipal;
+    text-align: center;
+    padding-top: 20em;
+
+    h1 {
+        font-size: 48px;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+}
+
